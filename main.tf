@@ -4,6 +4,6 @@ resource "aws_instance" "dev" {
     key_name ="myfirstkp" 
     associate_public_ip_address = true
     tags = {
-      Name = "shubam-batman"
+      Name = "shubam"
     }
 }
